@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", serif;
+}
+
+.bungee-regular {
+    font-family: "Bungee", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header ,
+section h2,
+section h3 {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: normal;
+
+}
+
+.roboto- <uniquifier> {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+header .container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+section .container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+footer .container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between; 
+}
+
+section h2 {
+    margin-top: 16px;
+    font-size: 36px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.brands-list img {
+    display: inline;
+    margin-right: 8px;
+    height: 32px;
+    margin-top: 16px;
+}
+.brands-list {
+    list-style: none;
+    display: flex;
+}
+
+section .Container {
+    align-items: flex-start;
+}
+section {
+    padding: 24px 0;
+    color: #1c3a8f;
+}
+section h2 {
+    margin-bottom: 16px;
+}
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px  ;
+}
+header {
+    padding: 50px 0;
+    background-color: #182C61;
+    color: white;
+}
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+header nav li a { 
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button { 
+    background-color: #182C61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #314e9e;
+}
+input:focus, textarea:focus {
+    outline-color:#182C61;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.social-links {
+    margin-top: 8px;
+}
+.contact-methods h3 {
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+div .container {
+    max-width: 1280px;
+    margin: auto, auto;
+}
+
+footer {
+    background-color: #182C61;
+    color: #fff;
+    padding: 16px 0;
+}
